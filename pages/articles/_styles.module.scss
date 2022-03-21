@@ -1,18 +1,76 @@
-.main{
+.main {
     background-color: #f0e6e6;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+
+
 }
 
-.cardBtn{
+.cardBtn {
     float: right;
 }
 
-.dropdown{
+.dropdown {
     float: right;
-    
- 
+
+
 }
 
-.dropBtn{
+.categories {
+    color: darkblue;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.dropBtn {
     float: right;
 
+}
+
+.menu {
+    float: right;
+    margin-right: 10px;
+    width: 15rem;
+
+    span {
+        color: darkblue;
+        font-size: 1.3rem;
+
+
+
+    }
+}
+
+.card {
+   
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+
+    border: solid 2px #938bb4;
+
+    .date {
+        color: #a397d6;
+        font-size: 1.2rem;
+
+
+    }
+
+    .text {
+        color: #765fac;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .cardImg{
+       
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+        
+
+    }
+   
 }
